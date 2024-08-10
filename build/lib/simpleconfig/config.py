@@ -52,7 +52,7 @@ class SimpleConfig:
             return int(self.get(item))
         
         except ValueError as e:
-            return  
+            print(e)
     
     def boolean(self, item: str) -> Optional[bool]:
         try:
