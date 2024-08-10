@@ -1,7 +1,7 @@
 # SimpleConfig - easy to parse config!
 
-![image](https://github.com/user-attachments/assets/5c738895-34bf-4f4d-9cb3-67ce08e20fc8)
-Config example
+![config example](https://github.com/user-attachments/assets/5c738895-34bf-4f4d-9cb3-67ce08e20fc8)
+
 
 ### How to install? 
 ```bash
