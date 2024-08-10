@@ -10,8 +10,9 @@ class TestConfig(TestCase):
         config = SimpleConfig()
         config.parse(PATH_TO_TEST_CONFIG)
         self.assertEqual(
-            "value", config.get("key")
+            "1", config.get("key")
         )
+        print(config.int("key"))
 
 
 if __name__ == '__main__':
