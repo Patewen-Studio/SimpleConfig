@@ -2,6 +2,6 @@ venv/
 __pycache__/
 *.py[cod]
 .idea/
-.dist/
-.build/
-.smpl_config.*/
+dist/
+build/
+smpl_config.*/
