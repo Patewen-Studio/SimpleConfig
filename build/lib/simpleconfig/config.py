@@ -49,21 +49,21 @@ class SimpleConfig:
 
     def int(self, item: str) -> Optional[int]:
         try:
-            int(self.get(item))
+            return int(self.get(item))
         
-        except ValueError:
-            return 
+        except ValueError as e:
+            return  
     
     def boolean(self, item: str) -> Optional[bool]:
         try:
-            bool(self.get(item))
+            return bool(self.get(item))
         
         except ValueError:
             return 
     
     def float(self, item: str) -> Optional[float]:
         try:
-            float(self.get(item))
+            return float(self.get(item))
         
         except ValueError:
             return 
